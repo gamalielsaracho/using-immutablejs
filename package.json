@@ -1,0 +1,24 @@
+{
+  "name": "using-immutablejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify app.js -o bundle.js -t babelify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamalielsaracho/using-immutablejs.git"
+  },
+  "author": "gamaliel saracho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamalielsaracho/using-immutablejs/issues"
+  },
+  "homepage": "https://github.com/gamalielsaracho/using-immutablejs#readme",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "immutable": "^3.8.1"
+  }
+}

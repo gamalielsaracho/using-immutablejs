@@ -1,3 +1,7 @@
 const Immutable = require('immutable')
 
-require('./introduction/list')()
+// intro -> 1.
+// require('./introduction')()
+
+// list -> 2.
+require('./list')()

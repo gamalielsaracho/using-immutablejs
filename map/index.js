@@ -109,4 +109,14 @@ module.exports = () => {
 
 
 	// console.log(iterableString._tail.array)
+
+	// MODIFICAR.
+	libro = libro.setIn(['generos', 0], 'base de datos')
+
+	// modifica el objeto en la posicion 0, su clave precio.
+	libro = libro.setIn(['tiendas', 0, 'precio'], 90.5)
+
+	console.log(libro.getIn(['tiendas', 0, 'precio']))
+
+
 }

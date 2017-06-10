@@ -111,6 +111,13 @@ module.exports = () => {
 	console.log(libro.getIn(['tiendas', 0, 'precio']));
 
 	// console.log(iterableString._tail.array)
+
+	// MODIFICAR.
+	libro = libro.setIn(['generos', 0], 'base de datos');
+
+	libro = libro.setIn(['tiendas', 0, 'precio'], 90.5);
+
+	console.log(libro.getIn(['tiendas', 0, 'precio']));
 };
 
 },{"immutable":3}],3:[function(require,module,exports){

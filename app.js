@@ -4,4 +4,7 @@ const Immutable = require('immutable')
 // require('./introduction')()
 
 // list -> 2.
-require('./list')()
+// require('./list')()
+
+// map -> 3.
+require('./map')()

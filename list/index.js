@@ -8,7 +8,14 @@ module.exports = () => {
 
 	console.log(list)
 
-	let iterableString = List('this string is iterable')
+	let iterableString = Immutable.List('this string is iterable')
 
-	console.log(iterableString)
+	// .... 
+	const avengersArray = ['ironMan', 'capinainAmerica']
+
+	const avengersList = Immutable.List(avengersArray)
+
+	console.log(avengersList._tail.array)
+
+	// console.log(iterableString._tail.array)
 }
